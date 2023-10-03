@@ -92,7 +92,7 @@ except:
     print("Ha ocurrido un error")
     print("No se puede dividir entre 0")    
 '''
-
+'''
 dividendo = int(input("introduce el dividendo"))
 divisor = int(input("Introduce el divisor"))
 try:
@@ -103,3 +103,17 @@ else:
     print("El resultado es", resultado)
 finally:
     print("Fin de la ejecucion")
+    '''
+
+#Escribir ficheros:
+# sin usar with:
+fichero = open ("C:\\Users\\Andres\\git\\Curso-python\\salida-programa.txt",'w')
+fichero.write("fichero escrito sin with")
+fichero.close()
+
+#Usando with:
+
+with open ("C:\\Users\\Andres\\git\\Curso-python\\salida-programa.txt",'w') as fichero_with:
+    fichero_with.write("Fichero escrito con with")
+#Nota: no escribe el fichero por un error que no se como funciona, mirarlo(arreglado tenia que ponerle \\)
+
