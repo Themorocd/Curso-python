@@ -10,4 +10,11 @@ datos = ("%s tiene %d años" %(nombre,edad))
 
 print (datos)
 
-#Tema 4 pagina 14/28
+#ejemplo con salto de linea y tabuladores
+
+sentencia_if = """ if(importe>100):
+    print("El producto es caro")
+else:
+    print("El producto es barato")
+"""
+
