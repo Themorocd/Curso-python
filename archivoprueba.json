@@ -1,0 +1,19 @@
+[
+    {
+        "id":2,
+        "nombre":"Ferrari F40",
+        "descripcion":"El ultimo coche firmado por Enzo Ferrari antes de su muerte en 1988."
+    },
+    {
+        "id":28,
+        "nombre":"Ferrari 250 GTO",
+        "descripcion":"Esta considerado como uno de los mejores coches de carreras de todos los tiempos"
+  
+    },
+    {
+        "id":62,
+        "nombre":"Ferrari La Ferrari",
+        "descripcion":"El primer híbrido de Ferrrari"
+  
+    }
+]
